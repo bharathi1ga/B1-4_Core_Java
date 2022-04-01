@@ -3,6 +3,7 @@ package com.tns.package5;
 public class SBI 
     {
 	private int balance;
+	public SBI
 	public int getBalance()
 	{
 		return balance;
@@ -10,7 +11,7 @@ public class SBI
 	
 	public void setBalance(int bal)
 	{
-		bal=balance;
+		balance=bal;
 	}
 	
 

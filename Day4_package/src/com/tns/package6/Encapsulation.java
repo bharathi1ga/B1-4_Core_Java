@@ -8,7 +8,7 @@ public class Encapsulation
 		SBI s=new SBI();
 		s.setBalance(58000);
 		
-		System.out.println(s.setbal());
+		System.out.println("your SB a/c balance"+s.setbal());
 
 	}
 
