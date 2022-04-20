@@ -10,7 +10,7 @@ import java.sql.Statement;
 
 public class DBConnect {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws SQLException {
 		String dbDriver="com.mysql.cj.jdbc.Driver";
 		String dbURL="jdbc:mysql://127.0.0.1:3306/Capgemini1";
 		String dbUserName="root";
